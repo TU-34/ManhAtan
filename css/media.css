@@ -1,0 +1,255 @@
+@media (max-width: 1230px){
+    .items_num img{
+        display: none;
+    }
+
+    .conteiner2{
+        width: 100%;
+    }
+
+    .teh_items_sociall {
+        width: 48%;
+     }
+     .teh_header{
+        font-size: 25px;
+     }
+
+     .items_num{
+       padding: 30px;
+     }
+}
+
+@media (max-width: 990px){
+    .menu_burger{
+        display: block;
+    }
+    
+    .nav {
+        display: none;
+    }
+
+    .nav-toggle{
+        display: none;
+    }
+
+    .menu_burger{
+        font-size: 30px;
+        
+        letter-spacing: 30px;
+       
+       
+    }
+
+
+    
+
+
+    .cook_room_menu{
+        flex: none;
+
+        
+        align-items: center;
+    }
+    .meny_item{
+        width: 100%;
+        justify-content: center;
+    }
+
+    /*---- intro blok --------*/
+
+    .intro_buttom1, 
+    .intro_buttom2 {
+        
+        font-size: 11px;
+       
+    }
+
+    .intro_logo_kontent h1{
+    
+        font-size: 25px;
+        letter-spacing: 2px;
+        
+        
+    }
+
+    /*  БАНКЕТЫ*/
+    .aal_menu_items{
+        display: block;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    .items_num {
+       width: 80%;
+       margin: 0 auto;
+    }
+    
+    .items_num img{
+        display: block;
+        text-align: center;
+       margin: 20px auto;
+       
+    }
+
+
+    .teh_block{
+        display: block;
+    }
+/* 
+   ---------------- accordion ---*/
+    .teh_accordion{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .accordion_items{
+        width: 100%;
+    
+    }
+
+
+    /*---------- footer --------*/
+
+    .footer_items {
+        display: block;
+        
+    }
+
+    .footer_items_contakts {
+       display: flex;
+       width: 100%;
+        border-radius: 5px;
+        border: 2px solid #D5621D;
+        background: rgba(213, 98, 29, 0.10);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .items_contact {
+         padding: 10px ; 
+         width: 20%;
+    }
+    .footer_items_maps {
+        margin-left: 0;
+    }
+    .works{
+       border-bottom: 0;
+    }
+}
+
+@media (max-width: 720px){
+    .intro{
+        display: block;
+    }
+
+    .intro_item_position {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /* blok 3 */
+    .items_num img{
+        width: 100%;
+    }
+
+
+    /* footer */
+
+    .footer_items_contakts{
+        display: block;
+        text-align: center;
+
+    }
+
+    .works {
+        padding-bottom: 0;
+       
+    }
+
+    .works{
+        border-bottom: 0;
+     }
+
+    .items_contact {
+        padding: 10px ; 
+        width: 100%;
+   }
+}
+
+@media (max-width: 580px){
+
+    /* ----block 2 -----*/
+
+    .intro_logo_kontent h1 {
+        font-size: 18px;
+        
+    }
+
+    .intro_logo_kontent button {
+        padding: 7px 15px 7px 15px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 150%;
+        margin-bottom: 19px;
+    }
+    
+    /*--------- coock -------*/
+
+    .cook_room_menu {
+ 
+         margin: 0; 
+    }
+
+    .item_kes_buttom {
+        right: 0px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .item_text_header {
+        font-size: 14px;
+        line-height: 100%;
+       
+    }
+    .items_num {
+         padding: 0;
+    }
+
+    /* ---=-----.accordion -----*/
+    .accordion_header {
+        font-size: 13px;
+    }
+
+    .accordion_header:after {
+        width: 13px;
+        height: 13px;
+    }
+
+    .accordion_items.active
+    .accordion_header::after {
+      top: 12px;
+        
+    }
+
+    .accordion_items.active 
+    .accordion_text {
+        line-height: 1.6;
+        margin-left: 15px;
+    }
+
+    .teh_header {
+        font-size: 14px;
+    }
+
+    .teh-items {
+        display: block;
+        
+        
+    }
+
+    .teh_items_sociall{
+        width: 100%;
+        text-align: center;
+    }
+   
+
+}
